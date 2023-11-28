@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.containerNavBar {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "logo nome link1 link2 link3 link4";
+  
+  justify-items: start;
+}
+
+.logo { grid-area: logo; }
+
+.nome { grid-area: nome; }
+
+.link1 { grid-area: link1; }
+
+.link2 { grid-area: link2; }
+
+.link3 { grid-area: link3; }
+
+.link4 { grid-area: link4; }
