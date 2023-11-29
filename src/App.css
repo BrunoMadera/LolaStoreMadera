@@ -50,9 +50,9 @@
   justify-items: start;
 }
 
-.logo { grid-area: logo; }
+.logo { grid-area: logo; max-height: 50px; }
 
-.nome { grid-area: nome; }
+.nome { grid-area: nome; justify-self: end; }
 
 .link1 { grid-area: link1; }
 
@@ -61,3 +61,26 @@
 .link3 { grid-area: link3; }
 
 .link4 { grid-area: link4; }
+
+
+
+nav{
+  background-color: #FFe9d1;
+ }
+
+ header{
+
+  margin-top: 50px;
+ }
+
+ .Tit1{
+
+font-weight: bold;
+
+ }
+
+  .Tit2{
+
+font-weight: 100;
+
+ }
