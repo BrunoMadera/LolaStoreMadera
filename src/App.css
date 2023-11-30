@@ -1,5 +1,15 @@
+section{
+
+  margin-top: 75px;
+
+ }
+
+/*  */
+
 .App {
   text-align: center;
+  background-color: #ffe9d1;
+  font-family: "Montserrat";
 }
 
 .App-logo {
@@ -13,6 +23,7 @@
   }
 }
 
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,11 +33,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -37,7 +48,7 @@
   }
 }
 
-.container {  
+.container1 {  
   
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -50,32 +61,23 @@
   justify-items: start;
 }
 
-.logo { grid-area: logo; max-height: 50px; }
+.logo { grid-area: logo; max-height: 50px;   }
 
-.nome { grid-area: nome; justify-self: end; }
+.nome { grid-area: nome;   }
 
 .link1 { grid-area: link1; }
 
-.link2 { grid-area: link2; }
+.link2 { grid-area: link2; } 
 
 .link3 { grid-area: link3; }
 
 .link4 { grid-area: link4; }
 
 
-
-nav{
-  background-color: #FFe9d1;
- }
-
- header{
-
-  margin-top: 50px;
- }
-
  .Tit1{
 
 font-weight: bold;
+
 
  }
 
@@ -84,3 +86,43 @@ font-weight: bold;
 font-weight: 100;
 
  }
+
+
+.container2 {  
+  
+  display: grid;
+
+  grid-template-columns: 25px repeat(4, 1fr) 25px;
+  grid-template-rows: 50px 1fr;
+  gap: 10px 20px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    ". titulo titulo titulo titulo ."
+    ". box1 box2 box3 box4 .";
+}
+
+.titulo {
+  grid-area: titulo;
+  font-family: 'Montserrat';
+  font-size: xx-large;
+}
+
+.box1 {
+  align-self: center;
+  grid-area: box1;
+}
+
+.box2 {
+  align-self: center;
+  grid-area: box2;
+}
+
+.box3 {
+  align-self: center;
+  grid-area: box3;
+}
+
+.box4 {
+  align-self: center;
+  grid-area: box4;
+}

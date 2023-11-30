@@ -1,35 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import ProductsCards from './components/ProductsCards';
+
 
 function App() {
   return (
     <div className="App">
     
-    <NavBar />
+    <nav><NavBar /></nav>
     
+    <body>
+    
+    <section><ProductsCards /></section>
+    
+    </body>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <footer></footer>
 
-          <h1>Hello World!</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-
-          <h1>Hello World!</h1>
-          
-     
-       </header>
     </div>
+
   );
 }
 
