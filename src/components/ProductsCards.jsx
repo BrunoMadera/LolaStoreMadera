@@ -13,7 +13,7 @@ function ProductsCards() {
 
 <section  className="container2"> 
 
-    <div className="titulo">Nossa melhor seleção para você</div>
+    {/* <div className="titulo">Nossa melhor seleção para você</div> */}
 
     <div className="box1">
         <div className="card-group" style={{backgroundColor: "#fca32f",}}>

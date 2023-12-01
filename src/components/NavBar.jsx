@@ -1,6 +1,9 @@
 // import the image
 
+import CartWidget from './CartWidget';
+
 let logoLola = require('./images/lolaStoreTransp.png');
+let cartIco = require('./icons/cartIcon_32px.png');
       
 function NavBar() {
         return (
@@ -16,7 +19,9 @@ function NavBar() {
           <a className="navbar-brand Tit1" id='nome' href="#">Lola Store, sua loja de roupas</a>
           <a className="navbar-brand Tit2" href="#">Produtos</a>
           <a className="navbar-brand Tit2" href="#">Contato</a>
-          <a className="navbar-brand Tit2" href="#">Seu Carrinho</a>
+          <a className="navbar-brand Tit2" href="#">
+            <CartWidget />
+          </a>
           <a className="navbar-brand Tit2" href="#">Log-In</a>
     </div>
   </nav>
