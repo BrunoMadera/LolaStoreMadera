@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import ProductsCards from './components/ProductsCards';
@@ -15,8 +14,10 @@ function App() {
     
     <section><ProductsCards /></section>
 
-    <section><ItemListContainer /></section>
-    
+    <section>
+      <ItemListContainer />
+    </section>
+  
     </body>
 
     <footer></footer>

@@ -130,3 +130,23 @@ font-weight: 100;
   align-self: center;
   grid-area: box4;
 }
+
+
+.boxCounter{
+  background-color: antiquewhite;
+
+}
+
+.txtCounter{
+    
+}
+
+.btnCounter{
+    
+    background-color: grey;
+    border-radius: 10px;
+    border: none;
+    width: 25px;
+    border-style: groove;
+
+}

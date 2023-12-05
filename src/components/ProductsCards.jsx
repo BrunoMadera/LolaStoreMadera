@@ -1,3 +1,6 @@
+ import ItemCount from './ItemCount';
+ 
+ 
  // import the images
 
 let prod1 = require('./images/produto1.jpg');
@@ -24,6 +27,7 @@ function ProductsCards() {
             <a href="#" className="btn btn-dark">+ detalhes</a>
           </div>
         </div>
+      <ItemCount />
     </div>
 
     <div className="box2">
@@ -35,6 +39,7 @@ function ProductsCards() {
             <a href="#" className="btn btn-dark">+ detalhes</a>
           </div>
         </div>
+      <ItemCount />
     </div>
 
     <div className="box3">
@@ -46,6 +51,7 @@ function ProductsCards() {
             <a href="#" className="btn btn-dark">+ detalhes</a>
           </div>
         </div>
+      <ItemCount />
     </div>
 
     <div className="box4">
@@ -57,6 +63,7 @@ function ProductsCards() {
             <a href="#" className="btn btn-dark">+ detalhes</a>
           </div>
         </div>
+      <ItemCount />
     </div>
 </section>
 
