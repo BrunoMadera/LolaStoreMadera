@@ -1,4 +1,4 @@
-// import the image
+ import addCount from './ItemCount';
 
 let cartIco = require('./icons/cartIcon_32px.png');
       
@@ -8,7 +8,7 @@ function CartWidget() {
     <button type="button" class="btn position-relative">
       <img src={cartIco} alt=""></img>
       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
-        4
+        12
       </span>
     </button>
   </div>

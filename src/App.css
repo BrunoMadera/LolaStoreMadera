@@ -134,19 +134,19 @@ font-weight: 100;
 
 .boxCounter{
   background-color: antiquewhite;
-
 }
 
 .txtCounter{
-    
+
+text-align: center;
+
 }
 
 .btnCounter{
     
-    background-color: grey;
-    border-radius: 10px;
-    border: none;
-    width: 25px;
-    border-style: groove;
+    background-color: #FCA32F;
+    border: 5px outset #FC6F2F;
+    width: auto;
+
 
 }

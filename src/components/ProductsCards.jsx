@@ -24,7 +24,7 @@ function ProductsCards() {
           <div className="card-body">
             <h5 className="card-title">Chapéus</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark">+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
           </div>
         </div>
       <ItemCount />
@@ -32,11 +32,11 @@ function ProductsCards() {
 
     <div className="box2">
         <div className="card-group" style={{backgroundColor: "#fc6f2f",}}>
-          <img src={prod2} class="card-img-top" alt="..."></img>
+          <img src={prod2} className="card-img-top" alt="..."></img>
           <div className="card-body">
             <h5 className="card-title">Anéis</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark">+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
           </div>
         </div>
       <ItemCount />
@@ -48,7 +48,7 @@ function ProductsCards() {
           <div className="card-body">
             <h5 className="card-title">Óculos</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark">+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
           </div>
         </div>
       <ItemCount />
@@ -60,7 +60,7 @@ function ProductsCards() {
           <div className="card-body">
             <h5 className="card-title">Relógios</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark">+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
           </div>
         </div>
       <ItemCount />
