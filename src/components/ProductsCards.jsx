@@ -28,7 +28,8 @@ function ProductsCards() {
           </div>
         </div>
       <ItemCount />
-    </div>
+        <button className="btnCounter" id="btnProduto1" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
+      </div>
 
     <div className="box2">
         <div className="card-group" style={{backgroundColor: "#fc6f2f",}}>
@@ -40,6 +41,7 @@ function ProductsCards() {
           </div>
         </div>
       <ItemCount />
+        <button className="btnCounter" id="btnProduto2" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
     </div>
 
     <div className="box3">
@@ -52,6 +54,7 @@ function ProductsCards() {
           </div>
         </div>
       <ItemCount />
+        <button className="btnCounter" id="btnProduto3" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
     </div>
 
     <div className="box4">
@@ -64,6 +67,7 @@ function ProductsCards() {
           </div>
         </div>
       <ItemCount />
+        <button className="btnCounter" id="btnProduto4" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
     </div>
 </section>
 

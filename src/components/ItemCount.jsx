@@ -7,6 +7,8 @@ function ItemCount() {
 
     function addCart() {
         setContClique(addCount + 1);
+
+        return (addCount)
     }
 
     function removeCart() {
@@ -15,6 +17,8 @@ function ItemCount() {
 
             setContClique(addCount - 1);
         }
+        
+        return (addCount)
     }
 
     return (
@@ -26,12 +30,9 @@ function ItemCount() {
                 <input type="number" className="form-control txtCounter" placeholder="" input value={addCount} min="0" />
                 <button className="btn btn-outline-secondary" type="button" id="button-addon1" onClick={removeCart}>-</button>
             </div>
-            <div >
-                <button className="btnCounter" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
-            </div>
-
         </div>
-    )
+    
+     )
 
 
 }
