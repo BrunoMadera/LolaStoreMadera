@@ -3,7 +3,6 @@
 import CartWidget from './CartWidget';
 
 let logoLola = require('./images/lolaStoreTransp.png');
-let cartIco = require('./icons/cartIcon_32px.png');
       
 function NavBar() {
         return (
@@ -12,17 +11,16 @@ function NavBar() {
   
   <nav className="navbar fixed-top bg-body-tertiary ">
     <div className="container-fluid" style={{backgroundColor: "#fca32f"}}>
-        
-        <div className="navbar-brand" id="nome" href="#" alt="nome" >
+        <div className="navbar-brand" id="logo" href="#" alt="nome" >
             <img className = "logo" src={logoLola} alt="logo" />
         </div>
-          <a className="navbar-brand Tit1" id='nome' href="#">Lola Store, sua loja de roupas</a>
-          <a className="navbar-brand Tit2" href="#">Produtos</a>
-          <a className="navbar-brand Tit2" href="#">Contato</a>
-          <a className="navbar-brand Tit2" href="#">
-            <CartWidget />
+          <a className="navbar-brand Tit1" id="nome" href="#">Lola Store, sua loja de roupas</a>
+          <a className="navbar-brand Tit2" id="link1" href="#">Produtos</a>
+          <a className="navbar-brand Tit2" id="link2" href="#">Contato</a>
+          <a className="navbar-brand Tit2" id="link3" href="#">
+            <CartWidget />  
           </a>
-          <a className="navbar-brand Tit2" href="#">Log-In</a>
+          <a className="navbar-brand Tit2" id="link4" href="#">Log-In</a>
     </div>
   </nav>
 

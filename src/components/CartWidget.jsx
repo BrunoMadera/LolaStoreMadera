@@ -1,5 +1,3 @@
- import addCount from './ItemCount';
-
 let cartIco = require('./icons/cartIcon_32px.png');
       
 function CartWidget() {

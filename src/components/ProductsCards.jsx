@@ -16,58 +16,60 @@ function ProductsCards() {
 
 <section  className="container2"> 
 
-    {/* <div className="titulo">Nossa melhor seleção para você</div> */}
-
-    <div className="box1">
-        <div className="card-group" style={{backgroundColor: "#fca32f",}}>
-          <img src={prod1} class="card-img-top" alt="..."></img>
+    <div className=" box1">
+        <div className="card-group" style={{backgroundColor: "#fca32f",borderRadius: '0.375rem'}}>
+          <img src={prod1} className="card-img-top photo" alt="..."></img>
           <div className="card-body">
             <h5 className="card-title">Chapéus</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{marginBottom:'15px'}}>+ detalhes</a>
           </div>
         </div>
+      <div style={{margin: '8px'}} />
       <ItemCount />
-        <button className="btnCounter" id="btnProduto1" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
+        <button className="btnCounter" id="btnProduto1" style={{color: 'white'}} >Adicionar ao Carrinho </button>
       </div>
 
     <div className="box2">
-        <div className="card-group" style={{backgroundColor: "#fc6f2f",}}>
-          <img src={prod2} className="card-img-top" alt="..."></img>
+        <div className="card-group" style={{backgroundColor: "#fc6f2f", borderRadius: '0.375rem'}}>
+          <img src={prod2} className="card-img-top photo" alt="..." ></img>
           <div className="card-body">
             <h5 className="card-title">Anéis</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{marginBottom:'15px'}}>+ detalhes</a>
           </div>
         </div>
+      <div style={{margin: '8px'}} />
       <ItemCount />
         <button className="btnCounter" id="btnProduto2" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
     </div>
 
     <div className="box3">
-        <div className="card-group" style={{backgroundColor: "#fca32f",}}>
-          <img src={prod3} class="card-img-top" alt="..."></img>
+        <div className="card-group" style={{backgroundColor: "#fca32f",borderRadius: '0.375rem'}}>
+          <img src={prod3} class="card-img-top photo" alt="..." ></img>
           <div className="card-body">
             <h5 className="card-title">Óculos</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{marginBottom:'15px'}}>+ detalhes</a>
           </div>
         </div>
+      <div style={{margin: '8px'}} />
       <ItemCount />
         <button className="btnCounter" id="btnProduto3" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
     </div>
 
     <div className="box4">
-        <div className="card-group" style={{backgroundColor: "#fc6f2f",}}>
-          <img src={prod4} class="card-img-top" alt="..."></img>
+        <div className="card-group" style={{backgroundColor: "#fc6f2f",borderRadius: '0.375rem'}}>
+          <img src={prod4} class="card-img-top photo" alt="..." ></img>
           <div className="card-body">
             <h5 className="card-title">Relógios</h5>
             <p className="card-text"></p>
-            <a href="#" className="btn btn-dark" style={{margin:'15px'}}>+ detalhes</a>
+            <a href="#" className="btn btn-dark" style={{marginBottom:'15px'}}>+ detalhes</a>
           </div>
         </div>
+        <div style={{margin: '8px'}} />
       <ItemCount />
-        <button className="btnCounter" id="btnProduto4" style={{ color: 'white' }} >Adicionar ao Carrinho </button>
+        <button className="btnCounter" id="btnProduto4" style={{ color: 'white', }} >Adicionar ao Carrinho </button>
     </div>
 </section>
 

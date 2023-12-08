@@ -13,7 +13,7 @@ function ItemCount() {
 
     function removeCart() {
 
-        if (addCount != 0) {
+        if (addCount !== 0) {
 
             setContClique(addCount - 1);
         }
