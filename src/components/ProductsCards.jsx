@@ -48,7 +48,7 @@ function ProductsCards() {
             <p className="card-text"></p>
             {/* <h6 className="card-text"><small className="text-muted">{produto1.Description}</small></h6> */}
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted">{produto1.Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer">{produto1.Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
@@ -64,7 +64,7 @@ function ProductsCards() {
             {/* <h6 className="card-text"><small className="text-muted">{produto2.Description}</small></h6> */}
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted">{produto2.Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer">{produto2.Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
@@ -80,7 +80,7 @@ function ProductsCards() {
             {/* <h6 className="card-text"><small className="text-muted">{produto3.Description}</small></h6> */}
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted">{produto3.Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer">{produto3.Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
@@ -96,7 +96,7 @@ function ProductsCards() {
             {/* <h6 className="card-text"><small className="text-muted">{produto4.Description}</small></h6> */}
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted">{produto4.Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer">{produto4.Stock}</small></h6>
           </div>
         </div>
         <div style={{margin: '8px'}} />
