@@ -131,6 +131,7 @@ text-align: center;
 
 .photo{
 
-border: solid 1px red;
-
+/* border: solid 1px red; */
+height: 475px;
+/* border-radius: 8px; */
 }

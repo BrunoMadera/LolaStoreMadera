@@ -14,7 +14,6 @@ function ItemCount() {
     function removeCart() {
 
         if (addCount !== 0) {
-
             setContClique(addCount - 1);
         }
         
@@ -26,9 +25,9 @@ function ItemCount() {
         <div className="boxCounter">
 
             <div className="input-group mb-3">
-                <button className="btn btn-outline-secondary" type="button" id="button-addon1" onClick={addCart}>+</button>
-                <input type="number" className="form-control txtCounter" placeholder="" input value={addCount} min="0" />
                 <button className="btn btn-outline-secondary" type="button" id="button-addon1" onClick={removeCart}>-</button>
+                <input type="number" className="form-control txtCounter" placeholder="" input value={addCount} min="0" />
+                <button className="btn btn-outline-secondary" type="button" id="button-addon2" onClick={addCart}>+</button>
             </div>
         </div>
     
