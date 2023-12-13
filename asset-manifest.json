@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LolaStoreMadera/static/css/main.50fcf605.css",
-    "main.js": "/LolaStoreMadera/static/js/main.41bd1525.js",
+    "main.css": "/LolaStoreMadera/static/css/main.18f5b223.css",
+    "main.js": "/LolaStoreMadera/static/js/main.614e082c.js",
     "static/js/787.15d17aab.chunk.js": "/LolaStoreMadera/static/js/787.15d17aab.chunk.js",
     "static/media/produto1.jpg": "/LolaStoreMadera/static/media/produto1.ecc79163c41aa349c7f0.jpg",
     "static/media/produto2.jpg": "/LolaStoreMadera/static/media/produto2.61a8fb4e24a172fbf527.jpg",
@@ -9,12 +9,12 @@
     "static/media/produto3.jpg": "/LolaStoreMadera/static/media/produto3.4091a4fce3fb90b10d9e.jpg",
     "static/media/lolaStoreTransp.png": "/LolaStoreMadera/static/media/lolaStoreTransp.00acb0bd6abd74a420b7.png",
     "index.html": "/LolaStoreMadera/index.html",
-    "main.50fcf605.css.map": "/LolaStoreMadera/static/css/main.50fcf605.css.map",
-    "main.41bd1525.js.map": "/LolaStoreMadera/static/js/main.41bd1525.js.map",
+    "main.18f5b223.css.map": "/LolaStoreMadera/static/css/main.18f5b223.css.map",
+    "main.614e082c.js.map": "/LolaStoreMadera/static/js/main.614e082c.js.map",
     "787.15d17aab.chunk.js.map": "/LolaStoreMadera/static/js/787.15d17aab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50fcf605.css",
-    "static/js/main.41bd1525.js"
+    "static/css/main.18f5b223.css",
+    "static/js/main.614e082c.js"
   ]
 }
