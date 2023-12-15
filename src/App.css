@@ -78,14 +78,16 @@ font-weight: 100;
   gap: 10px 20px;
   grid-auto-flow: column;
   grid-template-areas:
-    ". titulo titulo titulo titulo ."
+    ". . . titulo titulo ."
     ". box1 box2 box3 box4 .";
 }
 
 .titulo {
   grid-area: titulo;
   font-family: 'Montserrat';
-  font-size: xx-large;  
+  font-weight: 100;
+  margin-top: 78px;
+  text-align: right;
  
 }
 
@@ -132,6 +134,6 @@ text-align: center;
 .photo{
 
 /* border: solid 1px red; */
-height: 475px;
+/* height: 475px; */
 /* border-radius: 8px; */
 }
