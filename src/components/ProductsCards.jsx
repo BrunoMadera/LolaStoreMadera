@@ -1,3 +1,4 @@
+ import React from 'react';
  import ItemCount from './ItemCount';
  
  
@@ -44,84 +45,43 @@ produto4 = {
 
 // checando filtros selecionados
 
-// let ProdutosFiltrados;
 
-      function readingBtn1() {
 
-        let elRo = document.getElementById("btncheck1").checked;
+    function readingBtn1(elRo) {
 
-        if(elRo === true){ elRo = true }else{elRo = false}
-
-        console.log("Ro:"+ elRo)
-
-        return elRo;
-      
-      }
-
-        function readingBtn2() {
-
-        let elAc = document.getElementById("btncheck2").checked;
-
-        if(elAc === true){elAc = true}else{elAc = false};
-
-        console.log("Ac:"+elAc)
+      elRo = document.getElementById("btncheck1").checked;
         
-        return elAc;
+      console.log(elRo)
 
-      }
+      return elRo;
 
-  // function readingBtns() {
+    }
 
-  //     let elRo = document.getElementById("btncheck1").checked;
-  //     let elAc = document.getElementById("btncheck2").checked;
+    function readingBtn2(elAc) {
 
-  //     if(elRo === true){
-
-  //         const ProdutosFiltrados = Produtos.filter(function(Produtos) {
-  //         return Produtos.Category === "Roupas" ;
-  //         });
-
-  //         ProdutosFiltrados.push("", "");
-  //         console.log(ProdutosFiltrados);
-  //     }
-
-  //     if(elAc === true){
-
-  //         const ProdutosFiltrados = Produtos.filter(function(Produtos) {
-  //         return Produtos.Category === "Acessórios" ;
-  //         });
-
-  //         ProdutosFiltrados.push("", "");
-  //         console.log(ProdutosFiltrados);
-  //     }
-
-  //     if(elRo === true && elAc === true){
-
-  //         const ProdutosFiltrados = Produtos.filter(function(Produtos) {
-  //         return Produtos.Category === "Roupas" || "Acessórios" ;
-  //         });
-
-  //         console.log(ProdutosFiltrados);
-  //     }
-  // }
-
+      elAc = document.getElementById("btncheck2").checked;
       
+      return elAc;
+
+    }
 
 
 
 // Função para filtrar
 
-  const ProdutosFiltrados = Produtos.filter(function(Produtos) {
-    // return Produtos.Category === "Roupas" || "Acessórios" ;
+    const ProdutosFiltrados = Produtos.filter(function(Produtos) {
+    
+    return Produtos.Category === "Roupas" || "Acessórios" ;
+    
+    // return Produtos.Category === "Acessórios" ;
+    
+    // return Produtos.Category === "Roupas"
+    
+    });
 
-    // return Produtos.Category === "Roupas";
 
-
-    return Produtos.Category === "Acessórios" ;
-
-
-
-  });
+   
+// setando o tamanho correto do array
 
   ProdutosFiltrados.push({
                 Name:'',
@@ -154,7 +114,7 @@ function ProductsCards() {
     <input type="checkbox" className="btn-check" id="btncheck1" autocomplete="off" onClick={readingBtn1}></input>
     <label className="btn btn-outline-success" for="btncheck1">Roupas</label>
 
-    <input type="checkbox" className="btn-check" id="btncheck2" autocomplete="off"onClick={readingBtn2}></input>
+    <input type="checkbox" className="btn-check" id="btncheck2" autocomplete="off" onClick={readingBtn2}></input>
     <label className="btn btn-outline-success" for="btncheck2">Acessórios</label>
   </div>
 
