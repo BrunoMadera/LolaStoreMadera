@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cropped",
+      "description": "",
+      "value": 56,
+      "stock": 12,
+      "picture": "./images/produto1.jpg",
+      "category_id": 1
+    },
+   {
+      "id": 2,
+      "name": "Anel Rubi",
+      "description": "",
+      "value": 195,
+      "stock": 5,
+      "picture": "./images/produto2.jpg",
+      "category_id": 2
+    },
+   {
+      "id": 3,
+      "name": "Jaqueta Jeans",
+      "description": "",
+      "value": 205,
+      "stock": 12,
+      "picture": "./images/produto3.jpg",
+      "category_id": 1
+    },
+   {
+      "id": 4,
+      "name": "Relógio Rolex",
+      "description": "",
+      "value": 565,
+      "stock": 3,
+      "picture": "./images/produto4.jpg",
+      "category_id": 2
+    } 
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Roupas"
+    },
+    {
+      "id": 2,
+      "name": "Acessórios"
+    }
+  ]
+}

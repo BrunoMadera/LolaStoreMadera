@@ -61,46 +61,46 @@ produto4 = {
 
       elAc = document.getElementById("btncheck2").checked;
       
+      console.log(elAc)
+
       return elAc;
 
     }
 
 
 
-// Função para filtrar
+// Fetch do Json-Products
 
-    const ProdutosFiltrados = Produtos.filter(function(Produtos) {
-    
-    return Produtos.Category === "Roupas" || "Acessórios" ;
-    
-    // return Produtos.Category === "Acessórios" ;
-    
-    // return Produtos.Category === "Roupas"
-    
-    });
 
+fetch("db.json").then((response) => {
+ response.json().then((products) => {
+        console.log(products);
+      })
+})
+
+    
 
    
 // setando o tamanho correto do array
 
-  ProdutosFiltrados.push({
-                Name:'',
-                Stock : '', 
-                Value : 0,
-                Picture: require('./images/lolaStoreTransp.png'),
-                Category: "",
-                Description:"--"
-                },
-                {
-                Name:'',
-                Stock : '', 
-                Value : 0,
-                Picture: require('./images/lolaStoreTransp.png'),
-                Category: "",
-                Description:"--"
-                });
+  // ProdutosFiltrados.push({
+  //               Name:'',
+  //               Stock : '', 
+  //               Value : 0,
+  //               Picture: require('./images/lolaStoreTransp.png'),
+  //               Category: "",
+  //               Description:"--"
+  //               },
+  //               {
+  //               Name:'',
+  //               Stock : '', 
+  //               Value : 0,
+  //               Picture: require('./images/lolaStoreTransp.png'),
+  //               Category: "",
+  //               Description:"--"
+  //               });
 
-  console.log(ProdutosFiltrados);
+  // console.log(ProdutosFiltrados);
 
 
 function ProductsCards() {
@@ -122,12 +122,12 @@ function ProductsCards() {
 
     <div className="box1">
         <div className="card-group" style={{backgroundColor: "#fc6f2f",borderRadius: '0.3rem'}}>
-          <img src={ProdutosFiltrados[0].Picture} className="card-img-top photo" alt="..."></img>
+          <img src={Produtos[0].Picture} className="card-img-top photo" alt="..."></img>
           <div className="card-body">
-            <h5 className="card-title">{ProdutosFiltrados[0].Name}</h5>
+            <h5 className="card-title">{Produtos[0].Name}</h5>
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted blockquote-footer ">{ProdutosFiltrados[0].Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer ">{Produtos[0].Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
@@ -137,12 +137,12 @@ function ProductsCards() {
 
       <div className="box2">
         <div className="card-group" style={{backgroundColor: "#fc6f2f",borderRadius: '0.3rem'}}>
-          <img src={ProdutosFiltrados[1].Picture} className="card-img-top photo" alt="..."></img>
+          <img src={Produtos[1].Picture} className="card-img-top photo" alt="..."></img>
           <div className="card-body">
-            <h5 className="card-title">{ProdutosFiltrados[1].Name}</h5>
+            <h5 className="card-title">{Produtos[1].Name}</h5>
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted blockquote-footer ">{ProdutosFiltrados[1].Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer ">{Produtos[1].Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
@@ -152,12 +152,12 @@ function ProductsCards() {
 
       <div className="box3">
         <div className="card-group" style={{backgroundColor: "#fc6f2f",borderRadius: '0.3rem'}}>
-          <img src={ProdutosFiltrados[2].Picture} className="card-img-top photo" alt="..."></img>
+          <img src={Produtos[2].Picture} className="card-img-top photo" alt="..."></img>
           <div className="card-body">
-            <h5 className="card-title">{ProdutosFiltrados[2].Name}</h5>
+            <h5 className="card-title">{Produtos[2].Name}</h5>
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted blockquote-footer ">{ProdutosFiltrados[2].Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer ">{Produtos[2].Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
@@ -167,12 +167,12 @@ function ProductsCards() {
 
       <div className="box4">
         <div className="card-group" style={{backgroundColor: "#fc6f2f",borderRadius: '0.3rem'}}>
-          <img src={ProdutosFiltrados[3].Picture} className="card-img-top photo" alt="..."></img>
+          <img src={Produtos[3].Picture} className="card-img-top photo" alt="..."></img>
           <div className="card-body">
-            <h5 className="card-title">{ProdutosFiltrados[3].Name}</h5>
+            <h5 className="card-title">{Produtos[3].Name}</h5>
             <p className="card-text"></p>
             <a href="#" className="btn btn-dark" style={{margin:'8px'}}>+ detalhes</a>
-            <h6 className="card-text"><small className="text-muted blockquote-footer ">{ProdutosFiltrados[3].Stock}</small></h6>
+            <h6 className="card-text"><small className="text-muted blockquote-footer ">{Produtos[3].Stock}</small></h6>
           </div>
         </div>
       <div style={{margin: '8px'}} />
