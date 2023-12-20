@@ -1,5 +1,6 @@
- import React from 'react';
+ import React, { useState, useEffect } from 'react';
  import ItemCount from './ItemCount';
+
  
  
 // produtos
@@ -71,12 +72,6 @@ produto4 = {
 
 // Fetch do Json-Products
 
-
-fetch("db.json").then((response) => {
- response.json().then((products) => {
-        console.log(products);
-      })
-})
 
     
 
